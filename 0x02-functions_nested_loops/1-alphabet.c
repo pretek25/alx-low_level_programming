@@ -3,36 +3,21 @@
 
 /**
 
- * main - function
-
- * Return: 0
+ * print_alphabet - print all alphabet in lowercase
 
  */
 
 
-int main(void)
+void print_alphabet(void)
 
 {
 
-        _putchar('_');
+	char letter;
 
-        _putchar('p');
+	for (letter = 'a'; letter <= 'z'; letter++)
 
-        _putchar('u');
+	_putchar(letter);
 
-        _putchar('t');
-
-        _putchar('c');
-
-        _putchar('h');
-
-        _putchar('a');
-
-        _putchar('r');
-
-        _putchar('\n');
-
-	return (0);
-
+	_putchar('\n');
 
 }
