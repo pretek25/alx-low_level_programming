@@ -1,13 +1,10 @@
 #include "main.h"
 
-
 /**
-
- * print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
-
- * followed by a new line
-
- */
+* print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
+* followed by a new line
+* Germany
+*/
 
 void print_alphabet_x10(void)
 
@@ -17,10 +14,8 @@ void print_alphabet_x10(void)
 
 	int i;
 
-
 	i = 0;
-
-
+	
 	while (i < 10)
 
 	{
@@ -35,12 +30,12 @@ void print_alphabet_x10(void)
 
 	ch++;
 
-}
+                }
 
-	_putchar('\n');
+                _putchar('\n');
 
-	i++;
+                i++;
 
-	}
+        }
 
 }
