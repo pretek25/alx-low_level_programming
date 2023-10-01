@@ -4,7 +4,7 @@
 
 
 /**
-
+*
  * main - prints the numbers from 1 to 100, followed by a new line
 
  * but for multiples of three prints Fizz instead of the number
@@ -19,25 +19,22 @@ int main(void)
 
 {
 
-        int i;
+	int i;
 
+	for (i = 1; i <= 100; i++)
 
-        for (i = 1; i <= 100; i++)
+	{
 
-        {
+	if (i % 3 == 0 && i % 5 != 0)
 
-        if (i % 3 == 0 && i % 5 != 0)
+	{
 
-        {
+	printf(" Fizz");
 
-        printf(" Fizz");
+	}
 
-        }
-
-        else if (i % 5 == 0 && i % 3 != 0)
-
-        {
-
+	else if (i % 5 == 0 && i % 3 != 0)
+	{
 	printf(" Buzz");
 	}
 	else if (i % 3 == 0 && i % 5 == 0)
